@@ -9,7 +9,10 @@ class App extends Component {
       monsters: [
         { name: 'Frankstein', key: '123sdf' },
         { name: 'Dracula', key: '123sdkkf' },
-        { name: 'Zpmbie', key: '123sdddf' }
+        { name: 'Zpmbie', key: '123sdddf' },
+        { name: 'Frankstein2', key: '123sdf2' },
+        { name: 'Dracula2', key: '123sdkkf2' },
+        { name: 'Zpmbie2', key: '123sdddf2' }
       ]
     };
   }
