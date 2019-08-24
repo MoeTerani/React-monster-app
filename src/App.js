@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { CardList } from './components/card-list/card-list.component';
+import { SearchBox } from './components/search-box/search-box.component.jsx';
 
 class App extends Component {
   constructor(props) {
@@ -28,10 +29,9 @@ class App extends Component {
 
     return (
       <div className='App'>
-        <input
-          type='search'
-          placeholder='Search monsters'
-          onChange={e => {
+        <SearchBox
+          placeholder='search monsters'
+          handleChange={e => {
             this.setState({ searchField: e.target.value });
           }}
         />
@@ -49,6 +49,14 @@ export default App;
 
 //   );
 // }
+//*************************** */
+
+// export const name = ()=> (
+
+// some jsx code
+
+//   );
+
 //*************************** */
 
 // class  extends Component {
