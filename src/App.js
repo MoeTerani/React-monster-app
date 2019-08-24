@@ -12,11 +12,16 @@ class App extends Component {
       searchField: ''
     };
   }
+
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json()) // get the response as json
       .then(users => this.setState({ monsters: users })); // now we have the array of the users and assign it to monsters empty array
   }
+
+  handleChange = e => {
+    this.setState({ searchField: e.target.value });
+  };
 
   render() {
     // const { monsters, searchField } = this.State;
@@ -29,11 +34,10 @@ class App extends Component {
 
     return (
       <div className='App'>
+        <h1>MONSTER ROLODEX</h1>
         <SearchBox
           placeholder='search monsters'
-          handleChange={e => {
-            this.setState({ searchField: e.target.value });
-          }}
+          handleChange={this.handleChange}
         />
         <CardList monsters={filteredMonsters} />
       </div>
@@ -69,12 +73,26 @@ export default App;
 // export default ;
 
 //******************************** */
+//******************************** */
 
 // class  extends Component {
 //   constructor(props) {
 //     super(props);
 //     this.state = {  }
 //   }
+
+// here in between we can write any lifecycle method
+
+// componentDidMount() {
+//   ############
+// }
+
+//or we can write any function using => function
+
+// handleChange = e => {
+//   ############
+// };
+
 //   render() {
 //     return (  );
 //   }
