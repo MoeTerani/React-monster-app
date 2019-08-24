@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MoeTerani/React-monster-app.git/static/css/main.c9a1580c.chunk.css",
-    "main.js": "/MoeTerani/React-monster-app.git/static/js/main.c0729cdb.chunk.js",
-    "main.js.map": "/MoeTerani/React-monster-app.git/static/js/main.c0729cdb.chunk.js.map",
-    "runtime~main.js": "/MoeTerani/React-monster-app.git/static/js/runtime~main.61ef11c9.js",
-    "runtime~main.js.map": "/MoeTerani/React-monster-app.git/static/js/runtime~main.61ef11c9.js.map",
-    "static/js/2.5e22ffbf.chunk.js": "/MoeTerani/React-monster-app.git/static/js/2.5e22ffbf.chunk.js",
-    "static/js/2.5e22ffbf.chunk.js.map": "/MoeTerani/React-monster-app.git/static/js/2.5e22ffbf.chunk.js.map",
-    "index.html": "/MoeTerani/React-monster-app.git/index.html",
-    "precache-manifest.268d7199f1e46e428e80139587fdc41e.js": "/MoeTerani/React-monster-app.git/precache-manifest.268d7199f1e46e428e80139587fdc41e.js",
-    "service-worker.js": "/MoeTerani/React-monster-app.git/service-worker.js",
-    "static/css/main.c9a1580c.chunk.css.map": "/MoeTerani/React-monster-app.git/static/css/main.c9a1580c.chunk.css.map"
+    "main.css": "/React-monster-app/static/css/main.c9a1580c.chunk.css",
+    "main.js": "/React-monster-app/static/js/main.556d4349.chunk.js",
+    "main.js.map": "/React-monster-app/static/js/main.556d4349.chunk.js.map",
+    "runtime~main.js": "/React-monster-app/static/js/runtime~main.ef966545.js",
+    "runtime~main.js.map": "/React-monster-app/static/js/runtime~main.ef966545.js.map",
+    "static/js/2.5e22ffbf.chunk.js": "/React-monster-app/static/js/2.5e22ffbf.chunk.js",
+    "static/js/2.5e22ffbf.chunk.js.map": "/React-monster-app/static/js/2.5e22ffbf.chunk.js.map",
+    "index.html": "/React-monster-app/index.html",
+    "precache-manifest.41cea5704dbc92bcb1ca469413813b14.js": "/React-monster-app/precache-manifest.41cea5704dbc92bcb1ca469413813b14.js",
+    "service-worker.js": "/React-monster-app/service-worker.js",
+    "static/css/main.c9a1580c.chunk.css.map": "/React-monster-app/static/css/main.c9a1580c.chunk.css.map"
   }
 }
